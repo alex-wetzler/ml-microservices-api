@@ -8,10 +8,10 @@ dockerpath="alexwetzler/api"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run mlmicroservice\
+kubectl run api\
     --generator=run-pod/v1\
     --image=$dockerpath\
-    --port=80 --labels app=mlmicroservice
+    --port=80 --labels app=api
 
 # Step 3:
 # List kubernetes pods
@@ -19,4 +19,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward mlmicroservice 8000:80
+kubectl port-forward api 8000:80
