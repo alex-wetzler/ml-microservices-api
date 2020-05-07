@@ -1,0 +1,10 @@
+(.devops) alexw@alexw-VirtualBox ~/ML-Microservice-API :( $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "api" already exists
+NAME   READY   STATUS    RESTARTS   AGE
+api    1/1     Running   0          5s
+Forwarding from 127.0.0.1:8000 -> 5001
+Forwarding from [::1]:8000 -> 5001
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+
