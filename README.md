@@ -8,18 +8,18 @@
 
 > Instructions for usage
 
-- ./run_docker.sh #runs the containerized Docker image
-- ./run_kubernetes.sh #runs the Docker Hub container with Kubernetes
-- ./make_prediction.sh #makes API call to Machine Learning Microservice 
+- ./run_docker.sh	-> runs the containerized Docker image
+- ./run_kubernetes.sh	-> runs the Docker Hub container with Kubernetes
+- ./make_prediction.sh 	-> makes API call to Machine Learning Microservice 
 
-> Explanation
-- app.py #Python flask app
-- Dockerfile #Instructions for assembling an image
-- docker_out.txt #Output of Docker image run test
-- kubernetes.out.txt #Output of Docker Hub container run test
-- Makefile #Directives for installing dependencies, testing & linting
-- make_prediction.sh #s. instructions section
-- requirements.txt #dependencies/libraries for Python flask app
-- run_docker.sh #s. instructions section
-- run_kubernetes.sh #s. instructions section
-- upload_docker.sh #uploading image to Docker Hub
+> Explanation of files
+- app.py 		-> Python flask app
+- Dockerfile 		-> Instructions for assembling an image
+- docker_out.txt	-> Output of Docker image run test
+- kubernetes.out.txt	-> Output of Docker Hub container run test
+- Makefile		-> Directives for installing dependencies, testing & linting
+- make_prediction.sh	-> s. instructions section
+- requirements.txt	-> dependencies/libraries for Python flask app
+- run_docker.sh		-> s. instructions section
+- run_kubernetes.sh	-> s. instructions section
+- upload_docker.sh	-> uploading image to Docker Hub
